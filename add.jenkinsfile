@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('addition'){
 			steps{
-				sh 'python addiyion.py --a=${params.a} --b=${{params.b}'
+				sh 'python addiyion.py --a=${params.a} --b=${params.b}'
 			}
 		}
 	}
