@@ -3,8 +3,8 @@ import argparse
 
 def aruments():
   parser = argparse.ArgumentParser(description="Hello.......World")
-  parser.add_argument('--a',required=true)
-  parser.add_argument('--b',required=true)
+  parser.add_argument('--a',required=True)
+  parser.add_argument('--b',required=True)
   return parser.parse_args()
 
 def add(a,b):
