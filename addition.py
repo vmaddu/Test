@@ -1,7 +1,7 @@
 import os
 import argparse
 
-def aruments()
+def aruments():
   parser = argparse.ArumentParser(description="Hello.......World")
   parser.add_argument('--a',required=true)
   parser.add_argument('--b',required=true)
