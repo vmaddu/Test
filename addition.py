@@ -8,7 +8,7 @@ def aruments():
   return parser.parse_args()
 
 def add(a,b):
-  print ("result:", a+b)
+  print ("result:", int(a)+int(b))
 
 if __name__=="__main__":
   print "addition:"
