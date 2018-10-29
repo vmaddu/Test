@@ -10,7 +10,7 @@ def aruments():
 def add(a,b):
   print ("result:", a+b)
 
-if __name=="__main__":
+if __name__=="__main__":
   print "addition:"
   args = aruments()
   x= args.a
