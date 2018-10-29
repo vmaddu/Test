@@ -1,6 +1,18 @@
 import os
+import argparse
 
-print "addition:"
-a=input()
-b=imput()
-print ("result:", a+b)
+def aruments()
+  parser = argparse.ArumentParser(description="Hello.......World")
+  parser.add_argument('--a',required=true)
+  parser.add_argument('--b',required=true)
+  return parser.parse_args()
+
+def add(a,b):
+  print ("result:", a+b)
+
+if __name=="__main__":
+  print "addition:"
+  args = aruments()
+  x= args.a
+  y= args.b
+  add(x,y)
