@@ -11,7 +11,7 @@ def add(a,b):
   print ("result:", int(a)+int(b))
 
 if __name__=="__main__":
-  print "addition:"
+  print ("addition:")
   args = aruments()
   x= args.a
   y= args.b
