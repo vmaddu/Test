@@ -3,7 +3,7 @@ version: '3'
 
 services:
    add_two_num:
-       build: .
+       image: maddukuri/python-add
        container_name: add_con
        stdin_open: true
        tty: true
