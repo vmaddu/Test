@@ -1,0 +1,8 @@
+
+version: '3'
+
+services:
+   add_two_num:
+       build: .
+       container_name: add_con
+       

@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('addition'){
 			steps{
-				sh """python addition.py --a=${params.a} \
+				sh """docker-compose -f test/docker-compose.yml run --rm add_two_num /opt/add/ addition.py --a=${params.a} \
 							--b=${params.b}"""
 			}
 		}
