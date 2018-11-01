@@ -5,4 +5,6 @@ services:
    add_two_num:
        build: .
        container_name: add_con
+       stdin_open: true
+       tty: true
        
